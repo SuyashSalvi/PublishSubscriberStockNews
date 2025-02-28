@@ -1,37 +1,39 @@
-Stock Market Notifications System Using Publisher-Subscriber Mechanism
+# Stock Market Notifications System Using Publisher-Subscriber Mechanism
 
-Overview
+## Overview
 
-This project implements a real-time stock market notification system using a Publisher-Subscriber (Pub-Sub) mechanism to deliver instant stock updates to traders and investors. The system is built with Express.js, Spring Boot, React.js, and MongoDB, ensuring scalability, efficiency, and low-latency updates. It is deployed on AWS EC2 for high availability and performance.
+This project implements a **real-time stock market notification system** using a **Publisher-Subscriber (Pub-Sub) mechanism** to deliver **instant stock updates** to traders and investors. The system is built with **Express.js, Spring Boot, React.js, and MongoDB**, ensuring **scalability, efficiency, and low-latency updates**. It is deployed on **AWS EC2** for high availability and performance.
 
-Key Features
-	•	Real-time Stock Alerts – Sends notifications based on user-defined stock preferences.
-	•	Scalable Pub-Sub Architecture – Efficient message distribution across multiple subscribers.
-	•	Dynamic Data Streams – Continuously fetches and updates stock price data.
-	•	Event-Driven Backend – Uses Spring Boot & Express.js for concurrent stock data processing.
-	•	Interactive UI – Built with React.js for stock monitoring and subscription management.
-	•	Cloud Deployment – Hosted on AWS EC2 to ensure reliability and performance.
+## Key Features
 
-Technologies Used
+- **Real-time Stock Alerts** – Sends notifications based on user-defined stock preferences.
+- **Scalable Pub-Sub Architecture** – Efficient message distribution across multiple subscribers.
+- **Dynamic Data Streams** – Continuously fetches and updates stock price data.
+- **Event-Driven Backend** – Uses **Spring Boot & Express.js** for concurrent stock data processing.
+- **Interactive UI** – Built with **React.js** for stock monitoring and subscription management.
+- **Cloud Deployment** – Hosted on **AWS EC2** to ensure reliability and performance.
 
-Backend
-	•	Express.js – API handling, user authentication, and notification distribution.
-	•	Spring Boot – Manages stock data processing and event-driven notifications.
-	•	MongoDB – Stores subscription details and historical stock data.
+## Technologies Used
 
-Frontend
-	•	React.js – Provides an intuitive dashboard for monitoring stocks and managing subscriptions.
+### Backend
+- **Express.js** – API handling, user authentication, and notification distribution.
+- **Spring Boot** – Manages stock data processing and event-driven notifications.
+- **MongoDB** – Stores subscription details and historical stock data.
 
-Infrastructure & Cloud
-	•	AWS EC2 – Ensures scalable deployment and high performance.
+### Frontend
+- **React.js** – Provides an intuitive dashboard for monitoring stocks and managing subscriptions.
 
-How It Works
-	1.	Stock Data Collection – Fetches real-time stock price updates from external APIs.
-	2.	Publisher-Subscriber Mechanism – The backend publishes stock updates, which are received by multiple subscribers.
-	3.	Real-Time Alerts – Users receive notifications when stock prices reach predefined thresholds.
-	4.	Cloud Deployment – Hosted on AWS EC2 for optimal scalability and availability.
+### Infrastructure & Cloud
+- **AWS EC2** – Ensures scalable deployment and high performance.
 
-Project Structure
+## How It Works
+
+1. **Stock Data Collection** – Fetches real-time stock price updates from external APIs.
+2. **Publisher-Subscriber Mechanism** – The backend publishes stock updates, which are received by multiple subscribers.
+3. **Real-Time Alerts** – Users receive notifications when stock prices reach predefined thresholds.
+4. **Cloud Deployment** – Hosted on **AWS EC2** for optimal scalability and availability.
+
+## Project Structure
 
 📦 Stock-Market-Notifications  
  ┣ 📂 backend  # Express.js & Spring Boot Backend  
