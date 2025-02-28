@@ -44,38 +44,36 @@ This project implements a **real-time stock market notification system** using a
  ┣ 📜 Readme.md  
  ┗ 📜 final-updates  
 
-Future Enhancements
-	•	Integration with WebSockets for even faster real-time updates.
-	•	Enhanced stock trend analytics using machine learning.
-	•	Push notifications for mobile and desktop users.
-	•	Multi-user authentication & portfolio tracking.
+## 🔧 Future Enhancements
 
-Getting Started
-	1.	Clone the Repository:
+- Integration with **WebSockets** for even faster real-time updates.
+- **Enhanced stock trend analytics** using machine learning.
+- **Push notifications** for mobile and desktop users.
+- **Multi-user authentication & portfolio tracking**.
 
+## 🚀 Getting Started
+
+### 1 Clone the Repository:
+```bash
 git clone https://github.com/SuyashSalvi/stock-market-notifications.git
 cd stock-market-notifications
+```
 
-	2.	Install Dependencies:
-
+### 2 Install Dependencies:
+```
 cd backend
 npm install  # Install backend dependencies
 
 cd ../frontend
 npm install  # Install frontend dependencies
-
-	3.	Run the Backend Server:
-
+```
+### 3 Run the Backend Server:
+```
 cd backend
 npm start
-
-	4.	Run the Frontend Application:
-
+```
+### 4 Run the Frontend Application:
+```
 cd frontend
 npm start
-
-License
-
-This project is open-source and licensed under the MIT License. Contributions, modifications, and improvements are welcome.
-
-If you have any suggestions, feel free to open an issue or submit a pull request.
+```
